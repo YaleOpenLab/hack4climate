@@ -1,4 +1,4 @@
-(use this document as a guide for prompt 1)
+use this document as a guide for prompt 1
 
 ### [This prompt needs to be updated]
 
