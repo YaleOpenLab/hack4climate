@@ -1,20 +1,24 @@
 # Prompt 3 / Blockchain Prompt 1
-## Smart contracts for innovative fund and reward schemes for B-CAT pledges.
+
+## Intuitive Frontend for interacting with B-CAT Smart contracts
 
 ### Background
-On November 2018, DDL convened a design sprint in London collaboration with Oxford University.
-The sprint focused on discussing the merits and necessary architecture for the application of Blockchain for tracking action of Non-State actors —i.e. Blockchain for Climate Action Tracking, or B-CAT for short.
-With the outputs of this sprint, a team from Oxford University presented the B-Cat collective group to a running hackathon.
-The team has established an ongoing open source project to track and fund climate pledges by Oxford University’s colleges.
-See prototype at: www.commit-me.com. As part of the broader B-CAT project, the current efforts present clear opportunities to develop a hack that can take this project to the global stage.
+On November 2018, DDL convened a design sprint in London collaboration with Oxford University. The sprint focused on discussing the merits and necessary architecture for the application of Blockchain for tracking action of Non-State actors — i.e. Blockchain for Climate Action Tracking, or B-CAT. With the outputs of this sprint, a team from Oxford University presented the B-Cat collective group to a running hackathon. The team has established an ongoing open source project at [commit-me.com](https://www.commit-me.com) to track and fund climate pledges by Oxford University’s colleges.
 
 ### Challenge
-The work done by the B-cat collective, presents a user intuitive functionality for any peer to donate fund towards and existing climate action pledge. These funds (eg. in the form of cryptocurrencies) can be destined towards the costs of executing the projects associated to the pledges. However, a more interesting functionality, is the capability to allocate funds that can be retained as an escrow, and by issued as a reward to the responsible party/ies once the pledge is met. This enables multiple opportunities for innovation in economic models and reward schemes that can drive action and  behavioral change.
 
-### Data/Code Requirement and Sources:
-- B-Cat collective GitLab repository
-- Relevant Solidity and blockchain libraries (eg. GitCoin, PLCR Voting, Metamask etc.)
+#### Description
+Design and build an intuitive frontend interface that would compliment the [commit-me](https://www.commit-me.com) platform to allow states and non-state actor pledges.
 
-### Prompt owner and technical mentors:
+Stages:
+
+1. Simple and Easy Integration - Allow pledges by parties by integrating metamask into an intuitive frontend workflow. A test metamask workflow already exists on the [commit-me](https://www.commit-me.com) platform and can be used as reference. The idea behind using metamask is to enable easy transactions without waiting for users to download some kind of software and create hassle. One should have additional confirmation warnings over existing ones using something like Google Authenticator / similar 2FA schemes to ensure that the person wanting to invest in the project really wants to do so.
+
+2. Design what you would use - Design a UI whose workflow is comparable to that of existing service like banks, gofundme, etc. This would abstract the blockchain layer from the users and give them a sense of confidence in what they do without worrying about what goes on behind the scenes. A common example is that no one cares how a bank processes your transaction. What they do care about is whether it does, which can be done by processing and showing a confirmation on the blockchain. The UI should also be directive - imagine you bumped on to this site and have 1 minute to see what it is about. You wouldn't want to see bloated text / incompatible browser notifications. Same goes with Mobile compatibility.
+
+#### Resources and References
+See [resources](resources.md)
+
+#### Prompt owner and technical mentors:
 B-Cat collective, Yale Openlab
 Mentors: Matthew Linares and Co, Martin Wainstein, Varunram Ganesh
