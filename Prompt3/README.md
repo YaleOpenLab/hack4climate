@@ -3,7 +3,7 @@
 ## Intuitive Frontend for interacting with B-CAT Smart contracts
 
 ### Background
-On November 2018, DDL convened a design sprint in London collaboration with Oxford University. The sprint focused on discussing the merits and necessary architecture for the application of Blockchain for tracking action of Non-State actors — i.e. Blockchain for Climate Action Tracking, or B-CAT. With the outputs of this sprint, a team from Oxford University presented the B-Cat collective group to a running hackathon. The team has established an ongoing open source project at [commit-me.com](https://www.commit-me.com) to track and fund climate pledges by Oxford University’s colleges.
+On November 2018, Data Driven Labs convened a design sprint in London collaboration with Oxford University. The sprint focused on discussing the merits and necessary architecture for the application of Blockchain for tracking action of Non-State actors — i.e. Blockchain for Climate Action Tracking, or B-CAT. With the outputs of this sprint, a team from Oxford University presented the B-Cat collective group to a running hackathon. The team has established an ongoing open source project at [commit-me.com](https://www.commit-me.com) to track and fund climate pledges by Oxford University’s colleges.
 
 ### Challenge
 #### Description
