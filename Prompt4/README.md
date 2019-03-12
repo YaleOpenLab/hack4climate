@@ -24,6 +24,10 @@ The inflation / rise in value of DAI/ETH (in the form of a CDP) would provide th
 
 6. Enable change address donations to pledges - Donating change after transacting is something that users would be willing to do and is effective to a small extent. For example, assume you're buying a pizza with ETH/DAI and the price of one is $18.76. Having an option to donate the change ($1.24 in this case) would propel users to pledge amounts towards climate change while not going through the process of visiting some website and donating directly. This would require integration on both existing ETH wallets and on the B-CAT platform.
 
+7. Have attestations and challenges - In B-CAT, we need to have registered authorities which can attest to the accuracy of pledges and evidence since any meaningful attestation requires a way to represent the real-life reputation and identity of stakeholders. This lends legitimacy to the information provided and provides a party who will be held accountable for inaccurate information (and who will respond to challenges). An example is a project like uPort, which allows users to meaningfully authenticate their "real-world" identities on the blockchain.
+
+8. Quadratic fund matching schemes - Administrators could commit to matching the funds raised and explore creative ways of doing so. Besides traditional dollar-for-dollar matching, recent blockchain experiments have successfully executed quadratic grant matching, where contributions are matched proportional to the square of the sum of the square roots of contributions received. This gives more weight to numerous small contributions as opposed to a few large ones.
+
 #### Resources and References
 1. [Gitcoin](https://gitcoin.co)
 2. [FOMO3D](http://exitscam.me/play)
@@ -39,6 +43,9 @@ The inflation / rise in value of DAI/ETH (in the form of a CDP) would provide th
 12. [Gitcoin 2x Matching program](https://medium.com/gitcoin/gitcoin-grants-clr-matching-ecbc87b10038)
 13. [Dharma](https://dharma.io)
 14. [Compound](https://compound.finance)
+15. [Truffle Pet Shop](https://truffleframework.com/tutorials/pet-shop)
+16. [uPort](https://www.uport.me)
+17. [Liberal Radicalism](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656)
 
 #### Prompt owner and technical mentors:
 Yale OpenLab, B-CAT collective
