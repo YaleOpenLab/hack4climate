@@ -48,4 +48,4 @@ On November 2018, DDL convened a design sprint in London collaboration with Oxfo
 #### Prompt owner and technical mentors:
 Yale OpenLab, B-CAT collective
 
-Mentors: Martin Wainstein, Varunram Ganesh
+Mentors: Martin Wainstein, Varunram Ganesh, Ying Tong

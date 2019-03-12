@@ -33,4 +33,4 @@ Stages:
 #### Prompt owner and technical mentors:
 Yale OpenLab, B-Cat collective
 
-Mentors: Martin Wainstein, Varunram Ganesh
+Mentors: Martin Wainstein, Varunram Ganesh, Ying Tong
