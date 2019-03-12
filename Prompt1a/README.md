@@ -15,11 +15,11 @@ While an important step forward, NDCs do not currently put the world on track to
 **Explore data** on historic emissions, cumulative emissions, projected emissions, GDP, climate action pledges, and vulnerability to climate change. Understand the differences between countries’ carbon emissions and their efforts to address  global climate change (e.g., are high emitting countries also taking the most ambitious action?). 
 
 **Create data visualizations** that help track progress towards climate goals, capture the urgency of climate action, or illustrate the need for improved burden sharing. 
-- Consider experimenting with maps, interactive visualizations, or dashboards using tools such as Shiny, Plotly, Altair, Bokeh, Odyssey or any others of your choosing.
+- Consider experimenting with maps, interactive visualizations, or dashboards using tools such as [Shiny](https://shiny.rstudio.com), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://bokeh.pydata.org/en/latest/), [Odyssey](http://cartodb.github.io/odyssey.js/) or any others of your choosing.
 
 - Think of ways to go beyond line graphs to communicate the carbon budget.
 
-- Think of ways to make abstract numbers more compelling to the general public (e.g., the impact of an addition degree or half of a degree of warming). 
+- Think of ways to make abstract numbers more compelling to the general public (e.g., [the impact of an addition degree or half of a degree of warming](https://www.wri.org/blog/2018/10/half-degree-and-world-apart-difference-climate-impacts-between-15-c-and-2-c-warming)). 
 
 - Consider incorporating some of these *key concepts*:
     - Fairness and equity
@@ -58,11 +58,8 @@ Multiple datasets have been provided here: https://github.com/YaleOpenLab/hack4c
 | U.S. Emissions Projections to 2050; International Emissions Projections to 2040 | U.S. Energy Information Administration |
 | World Emissions Projections to 2050 | UK Department for Business, Energy and Industrial Strategy |
 | National Emissions Projections to 2100 | Pacific Northwest National Laboratory |
-|
 
 All data was downloaded from: https://bit.ly/2F32tpj
-
-
 
 ### Prompt Owners and Mentors 
 Data-Driven Lab: David Paolella, Amy Weinfurter, Angel Hsu
