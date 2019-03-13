@@ -46,20 +46,7 @@ While an important step forward, NDCs do not currently put the world on track to
 
 ### Data Sources
 
-Multiple datasets have been provided here: https://github.com/YaleOpenLab/hack4climate/tree/master/Prompt1a/data 
-
-| Dataset Description | Source |
-| ----------- | ----------- |
-| Historical Greenhouse Gas Emissions by Country | World Resources Institute; United Nations Framework Convention on Climate Change |
-| Pledged Adaptation/Mitigation Actions | World Bank |
-| Quantification of Nationally Determined Contributions | United Nations Environment Programme; World Resources Institute |
-| Climate Risk and Vulnerability | World Bank; Germanwatch; University of Notre Dame |
-| Alignment of Nationally Determined Contributions and United Nations Sustainable Development Goals | World Resources Institute |
-| U.S. Emissions Projections to 2050; International Emissions Projections to 2040 | U.S. Energy Information Administration |
-| World Emissions Projections to 2050 | UK Department for Business, Energy and Industrial Strategy |
-| National Emissions Projections to 2100 | Pacific Northwest National Laboratory |
-
-All data was downloaded from: https://bit.ly/2F32tpj
+To be released at the start of the hackathon.
 
 ### Prompt Owners and Mentors 
 Data-Driven Lab: David Paolella, Amy Weinfurter, Angel Hsu
