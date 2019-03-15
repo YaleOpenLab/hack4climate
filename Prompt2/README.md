@@ -30,39 +30,27 @@ Data output
 - This can be a single number or an object with multiple characteristics as per 3.a
 
 
-## Data Requirement and Sources:
-We can do this for either a solar or a wind project (or if possible both). Solar is more suitable as it is often small scale and harder to track.
+## Data Source:
 
-Solar:
-Solar generation data
-1 year at hourly resolution
-At least 3 measurements (sections of one installation) or separate installations within immediate proximity for benchmarking, ideally 10+
-Satellite data:
-Solar irradiance
-Same year at hourly resolution
-Ground weather station data
-Temperature, solar irradiance
-Same year at hourly resolution or better
-Data irregularities that we want the algorithm to be able to detect
-Real or artificially created
-Multiple different types?
-If we don’t/can’t provide these, we need to give students good descriptions of what anomalous data might look like, so they can generate it themselves (build the chaos monkey into their system themselves)
-Technical details of the solar panel installed
-Rated capacity
-Current - power - Voltage curve ideally for various temperatures, e.g.:
+[Linked](TODO: Add direct link here) is data from three solar arrays installed at the NIST campus in Maryland. The installations are of three different types - one is ground mounted, one is planted on a parking lot canopy and the other is a rooftop array. Participants are required to take the ground mounted array as the primary reference and use the other two as nearby reference sites while designing the oracle. The coordinates for the primary reference point are: `39°07'54.6"N 77°12'51.3"W`.
 
+### About
 
-For all of this data, static, past data is great as a first step, even better would be to have real data feeds, so students can work on real time integration and assessment. The frequency and density of data mentioned is an indication of what the minimum we would need is, but ideally it should reflect what is actually typically collected in the industry. For example if data is available at minute resolution we shouldn’t aggregate it, but instead use the real data feed and let students make best use of it.
+The data consists of solar energy generation parameters in 1 minute intervals during the period starting from January 1, 2017 to December 31, 2017. For information on all the technical terms referred to in the dataset, participants are encouraged to look at the [attached pdf](https://www.nist.gov/sites/default/files/documents/2017/10/04/datadictionary_supplementalcontent.pdf).
 
-Wind:
-Wind generation data
-1 year at hourly resolution
-At least 3 turbines within immediate proximity for benchmarking, ideally 10+
-Ground weather station data
-Wind speeds
-Wind direction
-Same year at hourly resolution or better
+Relevant info for this prompt is expanded upon below:
 
-Prompt owner and technical mentors:
-Yale Openlab
-Mentors: Daniel Csonth, Martin Wainstein, Swytch.io?, (WattTime/EW?)
+#### Solar Generation
+- `InvPAC_kW_Avg`: This is the solar AC measured in the output of the inverter.  
+- `InvPDC_kW_Avg`: This is the solar DC measured in the input to the inverter. ( the difference are losses, but this is for reference since we can just use the AC as a standard).
+- `PwrMtrP_kW_Avg`: This is the solar AC measured by the grid-tied meter. Its a second source of IoT data from the same site to compare with the inverter
+
+#### Solar Irradiance
+
+This comes from the Weather Station (WS1 or 2), and should be taken from either of the `PyraX_mV` data since it corresponds with the pyrometer. Same is available from the `AnalogAndSerial` table corresponding to the Ground PV dataset
+
+Other relevant info is Ambient temperature `Amp_TempC`.
+
+### Anomalies
+
+Sometimes the data that is received from the receiver installed on site might be erroneous. Sudden spikes in energy generation, energy generation above the installed capacity are some of the anomalies that may occur as part of the process. In the dataset above, there are some readings that are similar as well. Participants are required to filter out these observations while building the oracle. Building heuristics which could help in this process are also highly appreciated.
