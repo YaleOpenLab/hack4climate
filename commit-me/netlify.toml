@@ -1,0 +1,12 @@
+[build]
+  base = "client/"
+  Command = "yarn build"
+  Functions = "./client/lambda"
+
+Publish = "client/build"
+
+# Necessary for supporting pushState
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

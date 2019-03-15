@@ -1,0 +1,32 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "big-number": "^1.0.0",
+    "js-sha3": "^0.8.0",
+    "react": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.0-rc.1",
+    "truffle-hdwallet-provider": "^0.0.6",
+    "web3-provider-engine": "^14.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gifteth/monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gifteth/monorepo/issues"
+  },
+  "homepage": "https://gitlab.com/gifteth/monorepo#README"
+}

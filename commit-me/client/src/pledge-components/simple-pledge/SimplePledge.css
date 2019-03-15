@@ -1,0 +1,67 @@
+.SimplePledge {
+  border: 1px solid var(--secondary-bg-color);
+  padding: 1rem;
+  margin: 0 0 2rem 0;
+}
+
+.SimplePledge--status {
+  border: 1px solid var(--secondary-warning-color);
+  background: white;
+  padding: 1rem;
+  font-size: 80%;
+}
+
+.SimplePledge--verified_true {
+  border-top: 0.25rem solid var(--success-highlight-color);
+}
+
+.SimplePledge--verified_false {
+  border-top: 0.25rem solid var(--unsuccess-highlight-color);
+}
+
+.SimplePledge-Actions, .uk-alert-success, .uk-alert-danger, .SimplePledge-Balance {
+  clear: left;
+}
+
+.SimplePledge-TimeTransition {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid var(--highlight-color);
+  margin-bottom: 2rem;
+  padding: 3rem 0rem;
+  position: relative;
+}
+
+.SimplePledge-TransitionJustification {
+  text-align: center;
+  max-width: 20rem;
+  margin: 0rem auto -2.8rem auto;
+}
+
+.SimplePledge-TransitionJustification span {
+  display: block;
+  margin-top: 1rem;
+}
+
+.SimplePledge-StartState,
+.SimplePledge-TargetState {
+  position: absolute;
+  bottom: -1.25rem;
+  font-size: 80%;
+}
+
+.SimplePledge-TargetState {
+  right: 0;
+  text-align: right;
+}
+
+.SimplePledge-StateValue {
+  font-size: 200%;
+  padding-bottom: 0.5rem;
+}
+
+
+.SimplePledge-StartState p,
+.SimplePledge-TargetState p {
+  margin: 0;
+}

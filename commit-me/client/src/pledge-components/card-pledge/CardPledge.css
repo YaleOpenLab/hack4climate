@@ -1,0 +1,11 @@
+.CardPledge {
+  border: 1px solid var(--secondary-bg-color);
+}
+
+.CardPledge--verified_true {
+  border-top: 0.25rem solid var(--success-highlight-color);
+}
+
+.CardPledge--verified_false {
+  border-top: 0.25rem solid var(--unsuccess-highlight-color);
+}

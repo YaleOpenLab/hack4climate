@@ -1,0 +1,31 @@
+.SearchPledges {
+  display: block;
+}
+
+.FilterablePledgeView {
+  clear: left;
+  display: block;
+}
+
+.ListPledges nav {
+  display: block;
+  width: 100%;
+  float: left;
+  margin: 1rem 0;
+}
+
+.ListPledges nav ul li:first-child a {
+  margin-left: 0;
+}
+
+.SearchPledges {
+  text-align: center;
+  width: 100%;
+  padding: 3rem;
+}
+
+.SearchPledges input {
+  width: 80%;
+  padding: 1rem;
+  margin: 3rem 0;
+}
