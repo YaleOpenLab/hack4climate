@@ -1,0 +1,51 @@
+.PledgeCreate li {
+  list-style: none;
+  padding: none;
+  margin: 0;
+  float: left;
+}
+
+body select.PledgeCreate-Chooser.uk-select:not([multiple]):not([size]) {
+  display: inline;
+  width: auto;
+  line-height: 2.6rem;
+  height: 3rem;
+  margin-top: -0.6rem;
+  color: black;
+  margin-left: 0.2rem;
+  padding-left: 0rem;
+}
+
+.PledgeCreate-SMARTControl li {
+  float: none;
+  display: block;
+}
+
+.PledgeCreate-pledgeSection {
+  width: 100%;
+  margin: 0 0 3rem;
+}
+
+/* .PledgeCreate form {
+  border: 1px solid var(--secondary-bg-color);
+  padding: 1rem;
+}
+
+.PledgeCreate form label {
+  display: block;
+  color: var(--secondary-text-color);
+}
+
+.PledgeCreate form input,
+.PledgeCreate form textarea {
+  border: 1px solid var(--secondary-bg-color);
+}
+
+.PledgeCreate form input,
+.PledgeCreate form textarea,
+.PledgeCreate form select {
+  margin-bottom: 1rem;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+} */

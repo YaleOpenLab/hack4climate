@@ -1,0 +1,8 @@
+[build]
+  Functions = "lambda"
+
+# Necessary for supporting pushState
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

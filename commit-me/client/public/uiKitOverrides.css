@@ -1,0 +1,35 @@
+.uk-subnav > * > :first-child {
+  text-transform: lowercase;
+}
+
+.uk-subnav-pill > .uk-active > a {
+  background-color: var(--highlight-color);
+  color: var(--text-on-highlight-color);
+}
+
+.uk-card-small .uk-card-footer {
+  padding: 0.25rem 0;
+}
+
+.uk-card-badge:first-child + * {
+  margin-top: inherit;
+}
+
+.uk-card-body > :last-child,
+.uk-card-footer > :last-child,
+.uk-card-header > :last-child {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+
+.uk-button-primary {
+  background: var(--highlight-color);
+}
+
+.uk-button-primary:focus, .uk-button-primary:hover {
+  background: var(--highlight-color-active);
+}
+
+.uk-placeholder {
+  border: 1px dashed var(--highlight-color);
+}

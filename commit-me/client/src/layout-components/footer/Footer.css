@@ -1,0 +1,12 @@
+.Footer {
+  width: 100%;
+
+  padding: 5rem 0 1rem;
+  text-align: center;
+  float: left;
+  clear: left;
+}
+
+footer p {
+  margin-bottom:0;
+}

@@ -1,0 +1,11 @@
+.Page-content {
+  clear: both;
+  padding-top: 1rem;
+}
+
+.Page {
+  min-width: 320px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1rem;
+}
