@@ -45,7 +45,7 @@ Changing frequency of climate negotiation topics over time:
 - Commitment data: information about a commitment’s emissions, target, target year, etc. 
 - Metadata: https://docs.google.com/spreadsheets/d/1QgnYnGR3vPRfCG2OsaWAxEDl3-ZR5dcyrzPZQ5oOl8M/edit#gid=0 
 
-***Note**: Please see the prompt owners to get access to the contextual and commitment data. Since this data cannot be used or shared beyond this event, we ask that you agree to a non-disclosure agreement.* 
+***Note**: Please see the prompt owners to get access to the contextual and commitment data. Since this data cannot be used or shared beyond this event, we ask that you agree to a non-disclosure agreement. Email Amy Weinfurter at amy.weinfurter@yale.edu with questions.* 
 
 ### Prompt Owners and Mentors 
 Data-Driven Lab: Amy Weinfurter, Angel Hsu, David Paolella
